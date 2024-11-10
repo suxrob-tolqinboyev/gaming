@@ -1,0 +1,45 @@
+.nav {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0 28px 0;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+    color: grey;
+  }
+  &__item {
+    line-height: 160%;
+    position: relative;
+    transition: 0.3s ease-in-out;
+
+    &::after {
+      transition: 0.3s ease-in-out;
+      content: "";
+      width: 0;
+      height: 1px;
+      background: #d6ef0e;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    &:hover {
+      color: white;
+  
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  
+
+  
+}

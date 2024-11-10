@@ -1,0 +1,62 @@
+.amazing {
+
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px     ;
+        h2{
+            font-family: "canela";
+
+                span{
+                  font-family: "canela";
+                  color: #d6ef0e;
+                }
+        
+            font-size: 48px;
+        }
+
+        .btn{
+            margin-top:60px ;
+        }
+       
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    &__card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  &__sup-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  &__endimg{
+    background: #131E3A;
+    padding: 20px;
+    border-radius: 28px;
+    overflow: hidden;
+    cursor: pointer;
+
+    img{
+      transition: 0.3s ease-in-out;
+
+        &:hover{
+            transform: scale(1.036)
+        }
+    }
+
+  }
+
+  &__sup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+}

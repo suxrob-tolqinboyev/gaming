@@ -1,0 +1,26 @@
+.artists {
+  &__big-card {
+    display: flex;
+    gap: 30px;
+  }
+  &__info {
+    margin: 0 142px 64px 142px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: "canela";
+  }
+
+  &__card-img-1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  &__card-img-2 {
+    display: flex;
+    gap: 30px;
+    
+  }
+}

@@ -1,0 +1,144 @@
+.hero {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 92px 51px 185px 0;
+  }
+  &__info {
+    padding: 26px 0 118px 0;
+  }
+
+  &__title {
+    font-family: "canela";
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 76.8px;
+
+    span {
+      color: #d6ef0e;
+      font-family: "canela";
+    }
+  }
+
+  &__desc {
+    padding-top: 20px;
+  }
+
+  &__btn {
+    margin-top: 40px;
+  }
+
+  &__img {
+    position: relative;
+    height: 544px;
+  }
+
+  &__img-wrapper {
+    border-radius: 24px;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.036);
+      }
+    }
+
+    &::before {
+      content: url(../../assets/icons/Group\ 2.svg);
+      position: absolute;
+      left: -60px;
+      top: 223px;
+      z-index: 10;
+    }
+
+    &::after {
+      width: 631px;
+      height: 458px;
+
+      content: "";
+      position: absolute;
+      left: -336px;
+      top: 157px;
+      z-index: -1;
+      background: #1f413d;
+      filter: blur(200px);
+    }
+  }
+
+  &__ball {
+    display: flex;
+    gap: 94px;
+    margin-top:72px ;
+  }
+
+  &__gen {
+    padding: 0 28px 8px 0;
+    border-right: 1px solid $PRIMARI-COLOR;
+
+    p {
+      font-size: 48px;
+      span {
+        color: #d6ef0e;
+        font-family: "canele";
+      }
+    }
+  }
+
+  &__datum {
+    p {
+      font-size: 48px;
+      span {
+        color: #d6ef0e;
+        font-family: "canele";
+      }
+    }
+  }
+  &__current {
+    width: 304px;
+    height: 169px;
+    gap: 24px;
+    justify-content: space-between;
+    position: absolute;
+    top: 468px;
+    right: -51px;
+    background-color: #131e3a;
+    padding: 20px;
+    border-radius: 16px;
+    width: 65%;
+    border-top: 1px solid #d6ef0e;
+    box-shadow: 0px 9px 50px 0px #1724410a;
+
+    &::after {
+      width: 352px;
+      height: 221px;
+
+      content: "";
+      position: absolute;
+      background-color: #1a2652;
+      filter: blur(250px);
+      z-index: -1;
+      top: 0;
+      right: -60px;
+    }
+  }
+
+  &__current-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+
+    p{
+        color: #d6ef0e;
+        padding-bottom: 8px;
+    }
+
+   
+
+   
+    
+  }
+}

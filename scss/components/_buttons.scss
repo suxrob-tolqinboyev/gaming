@@ -1,0 +1,41 @@
+.btn {
+  padding: 15px 40px;
+  border-radius: 8px;
+
+  &--priem {
+    height: 52px ;
+    border: 1px solid #d6ef0e;
+    background: #d6ef0e;
+    color: white;
+
+    &:hover {
+      border: 1px solid #d6ef0e;
+      background: #00000000;
+      color: #d6ef0e;
+    }
+  }
+
+  &--secont {
+    border: none;
+    background: #00000000;
+    color: white;
+
+    &:hover {
+      background: #00000000;
+      color: #d6ef0e;
+    }
+  }
+
+  &--junior {
+    border: 1px solid #d6ef0e;
+    background: #00000000;
+    color: #d6ef0e;
+    
+
+    &:hover{
+        border: 1px solid #d6ef0e;
+        color: white;
+        background: #d6ef0e;
+    }
+  }
+}

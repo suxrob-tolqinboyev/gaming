@@ -1,0 +1,33 @@
+.create {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  &__info{
+    margin: 231px 0 231px 0;
+    h2 {
+      font-family: "canela";
+      font-size: 48px;
+  
+      span {
+        font-family: "canela";
+        font-size: 48px;
+        color: #d6ef0e;
+      }
+    }
+  }
+ 
+
+  &__img{
+    position: relative;
+    margin: 92px 0 92px 0;
+  }
+
+  &__img-2 {
+    content: "";
+    position: absolute;
+    left: -330px;
+    top: 157px;
+  }
+}
